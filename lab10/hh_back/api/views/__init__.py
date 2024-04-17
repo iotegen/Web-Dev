@@ -1,0 +1,2 @@
+from .fbv import company_list,company_detail,vacancy_list,vacancy_detail,company_vacancies,top_ten_vacancies
+from .cbv import VacancyListCreateAPIView,VacancyRetrieveUpdateDestroyAPIView,CompanyListCreateAPIView,CompanyRetrieveUpdateDestroyAPIView,CompanyVacancyListAPIView,TopTenVacanciesAPIView
